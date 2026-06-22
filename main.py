@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import single, bulk
+import single
+import bulk
 
 app = FastAPI(
     title="IP Geolocation & Security API",
