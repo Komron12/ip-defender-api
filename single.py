@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Query, HTTPException
-from .utils import fetch_ip_data, format_response
+from utils import fetch_ip_data, format_response
 import httpx
 
 router = APIRouter()
