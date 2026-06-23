@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List
-from .utils import fetch_ip_data, format_response
+from utils import fetch_ip_data, format_response
 import asyncio
 
 router = APIRouter()
